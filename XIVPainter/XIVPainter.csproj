@@ -15,6 +15,7 @@
 		<EnableWindowsTargeting>true</EnableWindowsTargeting>
 		<UseWindowsForms>true</UseWindowsForms>
 		<Nullable>enable</Nullable>
+		<LangVersion>latest</LangVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Linux)))'">
